@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section class="dark">
+      <div class="clock-container">
+        <div class="clock">
+          <div class="needle_hour"></div>
+          <div class="needle_minute"></div>
+          <div class="needle_second"></div>
+          <div class="center-point"></div>
+          <div style="position: absolute; top: 130px; left: 125px">
+            <!-- Using CSS to place each digit correctly -->
+            <div
+              class="digit"
+              style="
+                transform: translate(-60%, -38%) rotate(0deg) translateY(-110px);
+              "
+            >
+              12
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-66%, -44%) rotate(30deg)
+                  translateY(-110px);
+              "
+            >
+              1
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-86%, -59%) rotate(60deg)
+                  translateY(-110px);
+              "
+            >
+              2
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-72%, -68%) rotate(90deg)
+                  translateY(-110px);
+              "
+            >
+              3
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-62%, -90%) rotate(120deg)
+                  translateY(-110px);
+              "
+            >
+              4
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-70%, -85%) rotate(150deg)
+                  translateY(-110px);
+              "
+            >
+              5
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-60%, -85%) rotate(180deg)
+                  translateY(-110px);
+              "
+            >
+              9
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-50%, -90%) rotate(210deg)
+                  translateY(-110px);
+              "
+            >
+              7
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-41%, -92%) rotate(240deg)
+                  translateY(-110px);
+              "
+            >
+              8
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-28%, -75%) rotate(270deg)
+                  translateY(-110px);
+              "
+            >
+              9
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-28%, -55%) rotate(300deg)
+                  translateY(-110px);
+              "
+            >
+              10
+            </div>
+            <div
+              class="digit"
+              style="
+                transform: translate(-50%, -34%) rotate(330deg)
+                  translateY(-110px);
+              "
+            >
+              11
+            </div>
+          </div>
+
+          <div class="time">
+            <div style="position: absolute; left: 58px; top: 2px">
+              <div
+                style="
+                  position: absolute;
+                  left: 220px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="S2" style="margin-top: 5px">D</p>
+              </div>
+
+              <div
+                style="
+                  position: absolute;
+                  left: 180px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="S1" style="margin-top: 5px">D</p>
+              </div>
+
+              <div
+                style="
+                  position: absolute;
+                  left: 140px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="M2" style="margin-top: 5px">D</p>
+              </div>
+              <span
+                style="
+                  font-size: large;
+
+                  position: absolute;
+                  top: 31px;
+                  left: 92px;
+                "
+                >:</span
+              >
+              <div
+                style="
+                  position: absolute;
+                  left: 100px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="M1" style="margin-top: 5px">D</p>
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  left: 60px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="H2" style="margin-top: 5px">D</p>
+              </div>
+              <span
+                style="
+                  font-size: large;
+                  position: absolute;
+                  top: 31px;
+                  left: 172px;
+                "
+                >:</span
+              >
+              <div
+                style="
+                  position: absolute;
+                  left: 20px;
+                  top: 26px;
+
+                  height: 30px;
+                  width: 30px;
+                  border-radius: 2cap;
+                  box-shadow: 0px 0px 50px;
+                  text-align: center;
+                "
+              >
+                <!-- <p style="margin-left: 30px">SATURDAY</p> -->
+
+                <p id="H1" style="margin-top: 5px">D</p>
+              </div>
+            </div>
+
+            <div class="date">
+              <span class="circle"
+                ><span id="D" style="font-size: 20px">23</span>
+
+                <span id="M" style="font-size: 15.5px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Aug</span>
+
+                <span id="Y" style="font-size: 18px">2004,</span></span
+              >
+
+              <span id="Y" style="font-size: 18px"> −</span></span
+              >
+
+              <span id="Day" class="circle" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; "> WedNesay</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+.main_class {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  /* transform: rotateX(-3deg) rotateY(-95deg); */
+  animation: rotateCube 5s infinite ease-in-out;
+}
+.cube {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  height: 400px;
+  width: 400px;
+  background-color: bisque;
+  border: 2px solid rgb(5, 5, 5);
+}
+
+.front {
+  /* moves the .front div 100px along the Z-axis in the positive direction */
+  transform: translateZ(200px);
+}
+
+.bottom {
+  background-color: orange;
+  transform: translateY(200px) rotateX(90deg);
+  /* animation: rotateCube 5s infinite linear; */
+}
+
+.left {
+  background-color: green;
+  transform: rotateX(0deg) translateZ(-200px);
+}
+
+.right {
+  background: #bf1717;
+  transform: rotateY(90deg) translateZ(200px);
+}
+
+.top {
+  background-color: yellow;
+  transform: rotateX(90deg) translateZ(200px);
+}
+
+.back {
+  background-color: rgb(10, 61, 145);
+  transform: rotateY(-90deg) translateZ(200px);
+}
+
+@keyframes rotateCube {
+  0% {
+    transform: rotateX(-30deg) rotateY(-20deg);
+  }
+  100% {
+    transform: rotateX(24deg) rotateY(200deg);
+  }
+}

@@ -1,0 +1,161 @@
+body {
+  background-color: rgb(244, 243, 247);
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  /* position: sticky; */
+  position: relative;
+  bottom: 8px;
+}
+.top_right {
+  display: flex;
+  top: 26px;
+  margin-left: 1014px;
+  gap: 25px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  text-align: center;
+
+  /* display: flex;
+    gap: 200px; */
+}
+
+.plan_div {
+  padding: 10px;
+
+  border-radius: 2cap;
+  /* gap: 4px; */
+  background-color: rgb(250, 249, 249);
+  color: rgb(40, 39, 38);
+  height: 680px;
+  width: 320px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  border: solid 0.5px rgb(196, 193, 193);
+  /* justify-content: center; */
+}
+.plan_div:hover {
+  border: solid 1px rgb(44, 44, 46);
+  padding: 20px;
+  /* cursor: pointer; */
+}
+
+.my_button {
+  width: 275px;
+  height: 44px;
+  margin-top: 80px;
+  background-color: rgb(50, 44, 44);
+  padding: 5px;
+  color: aliceblue;
+  border: solid rgb(62, 65, 68) 1px;
+  border-radius: 4px; /* Use px, cap isn't valid here */
+  cursor: pointer;
+}
+
+.my_button:hover {
+  background-color: rgb(242, 242, 242);
+  color: rgb(0, 0, 0);
+  /* cursor: pointer; */
+}
+
+.my_button_1 {
+  width: 275px;
+  height: 44px;
+  margin-top: 80px;
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  color: black;
+  border: solid rgb(62, 65, 68) 1px;
+  border-radius: 4px; /* Use px, cap isn't valid here */
+  cursor: pointer;
+}
+.my_button_1:hover {
+  background-color: rgb(50, 44, 44);
+  color: aliceblue;
+}
+
+.my_button_2 {
+  background-color: rgb(248, 250, 250);
+  width: 100px;
+  border: solid rgb(203, 197, 197) 1px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: rgb(42, 44, 44); /* Initial color */
+}
+.my_button_2:hover {
+  background-color: rgb(50, 44, 44);
+  color: aliceblue;
+}
+
+.links {
+  position: relative;
+  display: flex;
+  gap: 42px;
+  margin-top: 9.2px;
+}
+.link {
+  display: inline;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.drop_down {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  list-style: none;
+  font-size: 15px;
+}
+
+ul.drop_down {
+  display: none;
+}
+li.link:hover ul.drop_down {
+  display: flex;
+  flex-direction: column;
+}
+
+.link:hover {
+  color: rgb(110, 104, 104);
+}
+.content_section {
+  padding: 15px;
+  margin-top: -22px;
+}
+
+.content_section h1 {
+  text-wrap: 1px;
+  font-size: 62px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+
+.main_logo {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.search_component {
+  height: 25px;
+  width: 200px;
+  border: 1px solid rgb(45, 47, 47);
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: -64px;
+  color: rgb(136, 143, 148);
+}

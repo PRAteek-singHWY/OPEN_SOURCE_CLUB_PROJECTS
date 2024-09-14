@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(5, 7, 44);
+}
+.shapes {
+  position: absolute;
+  left: 100px;
+  align-items: center;
+}
+.triangle {
+  position: relative;
+}
+.triangle .s1 {
+  position: absolute;
+  top: 200px;
+  width: 325px;
+  left: 160px;
+  height: 8px;
+  background-color: rgb(56, 186, 186);
+  color: aqua;
+  box-shadow: 0px 0px 50px;
+  transform: rotate(60deg);
+}
+
+.triangle .s2 {
+  position: absolute;
+  top: 200px;
+  width: 325px;
+  height: 8px;
+  background-color: rgb(56, 186, 186);
+  color: aqua;
+  box-shadow: 0px 0px 50px;
+
+  transform: rotate(-60deg);
+}
+
+.triangle .s3 {
+  position: absolute;
+  top: 340px;
+  left: 82px;
+  width: 324px;
+  height: 8px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+}
+
+.hexagon {
+  position: relative;
+}
+.hexagon .s1 {
+  position: absolute;
+  top: 200.7px;
+  width: 125px;
+  left: 169px;
+  height: 10px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+  transform: rotate(30deg);
+}
+
+.hexagon .s2 {
+  position: absolute;
+  top: 201px;
+  left: 64px;
+  width: 125px;
+  height: 10px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+  transform: rotate(-30deg);
+}
+
+.hexagon .s3 {
+  position: absolute;
+  top: 318.9px;
+  left: 195.2px;
+  width: 178.9px;
+  transform: rotate(90deg);
+  height: 9px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+}
+
+.hexagon .s4 {
+  position: absolute;
+  top: 318px;
+  left: -15px;
+  width: 177.9px;
+  height: 9px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+  transform: rotate(90deg);
+}
+
+.hexagon .s5 {
+  position: absolute;
+  top: 436px;
+  left: 66px;
+  width: 125px;
+  height: 10px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+  transform: rotate(-150deg);
+}
+
+.hexagon .s6 {
+  position: absolute;
+  top: 438px;
+  left: 172px;
+  width: 125px;
+  height: 10px;
+  background-color: rgb(56, 186, 186);
+  box-shadow: 0px 0px 50px;
+
+  color: aqua;
+  transform: rotate(-150deg);
+  transform: rotate(150deg);
+}
