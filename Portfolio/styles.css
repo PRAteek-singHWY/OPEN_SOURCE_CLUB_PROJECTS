@@ -1,0 +1,107 @@
+/* hero section */
+.img_initial {
+  height: 55px;
+  width: 55px;
+  padding: 10px;
+}
+
+.profilePicture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profileName {
+  font-size: 18px;
+  color: white;
+  margin-left: 68px;
+}
+.headerStyle {
+  border-radius: 38px;
+  background-color: white;
+}
+/* divs */
+
+.navFlex {
+  margin-top: 5px;
+  display: flex;
+  gap: 22px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+}
+.nav_buttons {
+  background-color: black;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.project_div {
+  display: flex;
+  gap: 100px;
+}
+@media (max-width: 1445px) {
+  .project_div {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: auto auto;
+    gap: 45px;
+    padding: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1165px) {
+  .project_div {
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 955px) {
+  .project_div {
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 710px) {
+  .project_div {
+    grid-template-columns: 260px;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+  }
+}
+.about_Me {
+  background-color: black;
+}
+.Projects {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.contact_links {
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+}
+
+.nlinks {
+  color: white;
+}
+
+.Project_style {
+  background-color: black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Project_Para {
+  color: white;
+}
