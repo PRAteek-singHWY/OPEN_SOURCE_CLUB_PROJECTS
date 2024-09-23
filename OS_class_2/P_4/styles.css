@@ -57,7 +57,7 @@ body {
 
 @keyframes rotateCube {
   0% {
-    transform: rotateX(-30deg) rotateY(-20deg);
+    transform: rotateX(-30deg) rotateY(-20deg) translateX(50x);
   }
   100% {
     transform: rotateX(24deg) rotateY(200deg);
